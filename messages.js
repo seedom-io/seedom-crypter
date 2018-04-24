@@ -6,6 +6,7 @@ module.exports.hex = (message) => {
         return null;
     }
 
+    // create message hex
     const buffer = Buffer.alloc(32);
     buffer.write(message);
     return `0x${buffer.toString('hex')}`;
@@ -32,5 +33,4 @@ module.exports.hash = (hex, address) => {
     const addressBuffer = new Buffer(address, 'hex');
     hasher.update(addressBuffer);
     return `0x${hasher.hex()}`;
-
 };
