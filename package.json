@@ -1,0 +1,22 @@
+{
+  "name": "seedom-crypter",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seedom-io/seedom-crypter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seedom-io/seedom-crypter/issues"
+  },
+  "homepage": "https://github.com/seedom-io/seedom-crypter#readme",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "js-sha3": "^0.6.1"
+  },
+  "bin": {
+    "crypter": "crypter.js"
+  }
+}
