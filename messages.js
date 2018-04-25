@@ -43,7 +43,7 @@ module.exports.random = () => {
 };
 
 module.exports.message = (hex) => {
-    hex = bytes.substr(2);
+    hex = hex.substr(2);
     const buffer = Buffer.from(hex, 'hex');
     return buffer.toString().replace(/\0/g, '');
 };
