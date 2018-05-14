@@ -20,7 +20,7 @@ program
 
         // output secure data
         console.log(`BEGIN()  SECRET : ${messageHash}`);
-        console.log(`REVEAL() HEX    : ${messageHex}`);
+        console.log(`END() HEX    : ${messageHex}`);
     });
 
 program.parse(process.argv);
